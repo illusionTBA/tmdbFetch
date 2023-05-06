@@ -22,6 +22,7 @@ jobs:
         run: |
           git config user.email "illusionztba@gmail.com"
           git config user.name "illusionTBA"
-          git add movie_ids_*.json
+          git add movie_ids.json
+          git add series_ids.json
           git commit -m "Daily fetch on $(date +'%Y-%m-%d')"
           git push
